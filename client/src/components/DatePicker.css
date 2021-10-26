@@ -1,0 +1,108 @@
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.react-datepicker {
+  font-family: inherit;
+}
+
+.react-datepicker__triangle {
+  visibility: hidden;
+}
+
+.react-datepicker__current-month,
+.react-datepicker-time__header,
+.react-datepicker-year-header {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.react-datepicker__header {
+  background-color: white;
+}
+
+.react-datepicker__day-names {
+  display: inline;
+}
+
+.react-datepicker__day,
+.react-datepicker__day-name,
+.react-datepicker__day:hover {
+  border-radius: 1rem;
+  width: 2rem;
+  line-height: 2rem;
+}
+
+.react-datepicker__day:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.react-datepicker__day:hover {
+  background-color: #ececf6;
+}
+
+.react-datepicker__day--disabled:hover {
+  background-color: transparent;
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__day--keyboard-selected,
+.react-datepicker__day--selected:hover,
+.react-datepicker__day--keyboard-selected:hover {
+  background-color: unset;
+  color: unset;
+}
+
+.react-datepicker__day--highlighted {
+  background-color: #007bff;
+  color: white;
+}
+
+.react-datepicker__day--highlighted:hover {
+  background-color: #0069d9;
+  color: white;
+}
+
+.react-datepicker__navigation {
+  top: 0.9rem;
+  outline: none;
+}
+
+.react-datepicker__navigation:focus {
+  color: #495057;
+  background-color: #fff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  border-radius: 0.2rem;
+}
+
+.react-datepicker__navigation--previous {
+  border-right-color: #818182;
+}
+
+.react-datepicker__navigation--next {
+  border-left-color: #818182;
+}
+
+.react-datepicker__navigation--previous:hover {
+  border-right-color: #9a9a9b;
+}
+
+.react-datepicker__navigation--next:hover {
+  border-left-color: #9a9a9b;
+}
+
+li.react-datepicker__time-list-item--selected {
+  background-color: #007bff !important;
+}
+
+li.react-datepicker__time-list-item--selected {
+  font-weight: normal !important;
+}

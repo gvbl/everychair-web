@@ -1,0 +1,1 @@
+web: node --unhandled-rejections=strict dist/app.js

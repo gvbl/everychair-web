@@ -1,0 +1,105 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.center-absolute {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.center-relative {
+  position: relative;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.first-column {
+  width: 18rem;
+}
+
+.table-separator {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.form-control.is-invalid {
+  background-image: unset;
+  padding-right: unset;
+}
+
+.form-row {
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
+}
+
+.jumbotron {
+  margin-top: 2rem;
+  padding: 2rem 2rem 4rem 2rem;
+  border-radius: 0.3rem;
+}
+
+.list-group-item-light {
+  color: black;
+}
+
+@media (max-width: 767px) {
+  .jumbotron {
+    margin-top: 1rem;
+    padding: 1rem 1rem 2rem 1rem;
+  }
+}
+
+.react-datepicker-popper {
+  z-index: 10 !important;
+}
+
+.disabled {
+  color: lightgray;
+}
+
+.required:after {
+  content: ' *';
+  color: red;
+}
+
+.list-group-item-light.list-group-item-action.active {
+  border-color: #007bff;
+  background-color: #007bff;
+}
+
+.badge-light {
+  border: 1px solid #dee2e6;
+}
+
+.text-contained {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.grecaptcha-badge {
+  opacity: 0;
+}
